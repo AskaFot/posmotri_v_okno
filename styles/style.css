@@ -20,7 +20,8 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   flex-direction: column;
-  margin-left: 200px;
+    flex-wrap: wrap;
+  align-content: center;
 }
 
 h1,
