@@ -62,10 +62,8 @@ ol {
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: end;
-  flex-direction: row;
-  width: 1140px;
   gap: 30px;
+  align-items: end;
 }
 
 .search-form {
