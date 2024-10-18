@@ -66,6 +66,9 @@ ol {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   align-items: end;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
 }
 
 .search-form {
