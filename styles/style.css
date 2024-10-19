@@ -264,6 +264,9 @@ label{
   width: 100%;
   height: 100%;
   flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .title {
@@ -288,11 +291,6 @@ label{
   position: relative;
   justify-items: stretch;
   justify-content: start;
-  /* scrollbar-width: none;  */
-  /* Правильно я поняла из комментария:  
-  'скролл не следует скрывать, список должен корректно отображаться даже 
-  без скрытого скролла' что скролл 
-  должен быть виден всегда? Но на макете его нет. */
 }
 
 .content__list-item:last-child {
