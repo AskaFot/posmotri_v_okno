@@ -21,6 +21,7 @@ html {
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  align-items: center;
 }
 
 h1,
@@ -96,16 +97,6 @@ ol {
   height: 100%;
   object-position: center;
 }
-
-/* .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  align-items: end;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-} */
 
 .search-form {
   display: grid;
