@@ -90,7 +90,7 @@ ol {
   inset: 0;
   width: 711px;
   height: 386px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .result__video {
@@ -104,7 +104,7 @@ ol {
   display: grid;
   align-items: start;
   grid-auto-flow: column;
-  gap: 40px;
+  gap: 39px;
 }
 
 .search-form__fieldset-title {
