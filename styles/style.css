@@ -110,6 +110,7 @@ ol {
   align-items: start;
   grid-auto-flow: column;
   gap: 39px;
+  justify-items: start;
 }
 
 .search-form__fieldset-title {
@@ -133,7 +134,6 @@ ol {
 .search-form__textfield:active {
   border: none;
   outline: 1px solid white;
-  /* text-decoration: none; */
 }
 
 .search-form__textfield:focus {
