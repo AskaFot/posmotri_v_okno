@@ -184,8 +184,6 @@ ol {
 }
 
 .search-form__checkbox-list {
-  /* display: flex;
-  gap: 10px; */
   display: flex;
     position: relative;
     gap: 11px;
@@ -218,15 +216,6 @@ ol {
 .search-form__pseudo-checkbox:hover {
   text-decoration: underline;
 }
-
-/* .search-form__pseudo-checkbox:active {
-  background-color: #fff;
-  width: 15px;
-  height: 15px;
-  outline: 1px solid white;
-  border: 1px solid transparent;
-  outline-offset: 2px;
-} */
 
 .search-form__label-text:hover{
   text-decoration: underline;
