@@ -109,15 +109,17 @@ ol {
   display: grid;
   align-items: start;
   grid-auto-flow: column;
-  gap: 39px;
+  gap: 40px;
   justify-items: start;
+  justify-content: start;
 }
 
 .search-form__fieldset-title {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   line-height: 21.6px;
-  margin-bottom: 9px;
+  font-weight: 400;
+  margin-bottom: 5px;
 }
 
 .search-form__label {
@@ -161,6 +163,7 @@ ol {
   border: none;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  padding: 14px 6px 12px 0px;
   background-color: transparent;
   color: #fff;
   font-weight: 400;
@@ -181,8 +184,12 @@ ol {
 }
 
 .search-form__checkbox-list {
+  /* display: flex;
+  gap: 10px; */
   display: flex;
-  gap: 10px;
+    position: relative;
+    gap: 11px;
+    padding-bottom: 5px;
 }
 
 .search-form__pseudo-checkbox {
@@ -238,7 +245,7 @@ input {
 }
 
 .search-form__submit-button {
-  padding: 6px 71px 6px 71px;
+  padding: 6px 74px 6px 71px;
   border: 1px solid white;
   align-self: end;
 }
@@ -423,11 +430,3 @@ padding-bottom: 2px;
 padding-top: 2px;
 padding-bottom: 2px;
 }
-/* 
-.content__card-link_current:hover {
-  background-color: rgba(84, 80, 80, 1);
-  height:107px; */
-  width: 394px;
-padding-top: 2px;
-padding-bottom: 2px;
-} */
