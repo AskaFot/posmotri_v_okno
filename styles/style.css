@@ -139,7 +139,7 @@ search-form__fieldset{
   line-height: 21.6px;
   font-weight: 400;
   margin-bottom: 5px;
-  margin-left: 4px;
+  /* margin-left: 4px; */
 }
 
 .search-form__label {
@@ -452,6 +452,8 @@ label{
   width: 394px;
 padding-top: 2px;
 padding-bottom: 2px;
+outline: none;
+border: none;
 }
 
 .content__card-link_current:focus {
@@ -460,4 +462,6 @@ padding-bottom: 2px;
   width: 394px;
 padding-top: 2px;
 padding-bottom: 2px;
+outline: none;
+border: none;
 }
