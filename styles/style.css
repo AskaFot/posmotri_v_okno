@@ -325,6 +325,7 @@ label {
   text-align: left;
   text-transform: uppercase;
   appearance: none;
+  padding-left: 5px;
 }
 
 .content__accent {
