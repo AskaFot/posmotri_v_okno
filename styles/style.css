@@ -66,12 +66,10 @@ button {
 }
 
 button:active {
-  /* outline: 1px solid white; */
   background-color: rgba(84, 80, 80, 1);
 }
 
 button:hover {
-  /* outline: 1px solid white; */
   text-decoration: underline;
 }
 
@@ -83,13 +81,6 @@ button:focus-visible {
   outline: 1px double white;
   outline-offset: 1px;
 }
-
-/* .button:focus-within {
-  outline: 1px double white;
-  outline-offset: 1px;
-} */
-
-
 
 .content {
   display: flex;
@@ -154,12 +145,7 @@ button:focus-visible {
   text-decoration: underline;
 }
 
-.search-form__label:has(:focus-visible){
-  outline: 1px solid white;
-  outline-offset: 1px;
-} 
-
-.search-form__label:focus-visible {
+.search-form__label:has(:focus-visible) {
   outline: 1px solid white;
   outline-offset: 1px;
 }
@@ -167,7 +153,7 @@ button:focus-visible {
 .search-form__label:focus {
   outline: none;
   border: none;
-  }
+}
 
 .search-form__textfield {
   width: 225px;
@@ -339,7 +325,6 @@ label {
   outline: 1px solid white;
   outline-offset: 1px;
 }
-
 
 .content__video-card {
   display: flex;
