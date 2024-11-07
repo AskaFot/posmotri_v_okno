@@ -96,7 +96,7 @@ button:focus-visible {
   justify-items: stretch;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .result__video-container {
@@ -272,15 +272,23 @@ label {
 }
 
 .content__list {
-  display: grid;
+  /* display: grid;
   inset: 0;
-  width: 398px;
+  width: 420px;
   height: 298px;
   overflow: auto;
   position: relative;
   justify-items: stretch;
-  justify-content: start;
-  scrollbar-gutter: ;
+  justify-content: start; */
+      display: grid;
+    inset: 0;
+    width: 398px;
+    height: 298px;
+    overflow: auto;
+    position: relative;
+    justify-items: stretch;
+    justify-content: start;
+    scrollbar-gutter: stable;
 }
 
 .content__list-item:last-child {
