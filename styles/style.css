@@ -280,7 +280,7 @@ label {
     position: relative;
     justify-items: stretch;
     justify-content: start;
-
+    scrollbar-gutter: stable;
 }
 
 .content__list-item:last-child {
