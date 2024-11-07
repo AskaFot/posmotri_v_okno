@@ -96,6 +96,7 @@ button:focus-visible {
   justify-items: stretch;
   justify-content: center;
   align-items: center;
+  margin-left: 30px;
 }
 
 .result__video-container {
