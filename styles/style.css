@@ -274,12 +274,13 @@ label {
 .content__list {
   display: grid;
   inset: 0;
-  width: 420px;
+  width: 398px;
   height: 298px;
   overflow: auto;
   position: relative;
   justify-items: stretch;
   justify-content: start;
+  scrollbar-gutter: ;
 }
 
 .content__list-item:last-child {
