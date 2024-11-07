@@ -103,7 +103,7 @@ button:focus-visible {
   inset: 0;
   width: 711px;
   height: 386px;
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .result__video {
@@ -117,7 +117,7 @@ button:focus-visible {
   display: grid;
   align-items: start;
   grid-auto-flow: column;
-  gap: 35px;
+  gap: 38px;
   justify-items: start;
   justify-content: start;
 }
@@ -274,8 +274,8 @@ label {
   display: grid;
   inset: 0;
   width: 420px;
-  height: 298px;
-  height: 298px;
+  /* height: 298px; */
+  height: 304px;
   overflow: auto;
   position: relative;
   justify-items: stretch;
