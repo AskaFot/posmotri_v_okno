@@ -274,8 +274,7 @@ label {
   display: grid;
   inset: 0;
   width: 420px;
-  /* height: 298px; */
-  height: 304px;
+  height: 298px;
   overflow: auto;
   position: relative;
   justify-items: stretch;
