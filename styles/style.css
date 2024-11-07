@@ -118,7 +118,7 @@ button:focus-visible {
   display: grid;
   align-items: start;
   grid-auto-flow: column;
-  gap: 38px;
+  gap: 45px;
   justify-items: start;
   justify-content: start;
 }
@@ -201,7 +201,7 @@ button:focus-visible {
   display: flex;
   width: 19px;
   height: 19px;
-  margin-right: 10px;
+  margin-right: 5px;
   vertical-align: middle;
   border: 1px solid white;
   justify-content: center;
