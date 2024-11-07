@@ -273,6 +273,8 @@ label {
 .content__list {
   display: grid;
   inset: 0;
+  width: 420px;
+  height: 298px;
   height: 298px;
   overflow: auto;
   position: relative;
@@ -301,27 +303,26 @@ label {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
   margin: 2px;
+  height: 107px;
+  width: 394px;
 }
 
 .content__card-link:active {
   background-color: rgba(84, 80, 80, 1);
-  height: 107px;
-  width: 394px;
   padding-top: 2px;
   padding-bottom: 2px;
   border: none;
 }
+.content__card-link:hover {
+  text-decoration: underline;
+}
 
-.content__card-link_current:focus {
+.content__card-link:focus {
   outline: none;
 }
 
-.content__card-link_current:focus-within {
+.content__card-link:focus-visible {
   background-color: transparent;
-  height: 107px;
-  width: 394px;
-  padding-top: 2px;
-  padding-bottom: 2px;
   outline: 1px solid white;
   outline-offset: 1px;
 }
@@ -330,25 +331,6 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-.content__video-card:hover {
-  text-decoration: underline;
-}
-
-.content__video-card:active {
-  outline: none;
-  border: none;
-}
-
-.content__video-card:focus {
-  outline: none;
-  border: none;
-}
-
-.content__video-card:has(:focus-visible) {
-  outline: 1px solid white;
-  outline-offset: 2px;
 }
 
 .content__video-card-description-container {
