@@ -142,9 +142,9 @@ button:focus-visible {
   cursor: pointer;
 }
 
-.search-form__label:hover:not(:last-child) {
+.search-form__label_hover:hover {
   text-decoration: underline;
-}
+} 
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
